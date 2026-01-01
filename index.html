@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Up | Premium Footwear Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        @keyframes zoom {
+            from { transform: scale(1.05); }
+            to { transform: scale(1.15); }
+        }
+
+        .hero-zoom {
+            animation: zoom 20s infinite alternate;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        
+        input, select {
+            transition: all 0.2s ease;
+        }
+        
+        input:focus, select:focus {
+            border-color: #ea580c !important;
+            box-shadow: 0 0 0 2px rgba(234, 88, 12, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-zinc-900 selection:bg-orange-600 selection:text-white">
+
+    <div id="app">
+        <!-- Top Banner -->
+        <div class="bg-zinc-900 text-white text-[10px] py-2 text-center uppercase tracking-[0.3em] font-bold overflow-hidden">
+            <div class="animate-pulse">
+                Free Shipping in Pakistan • Worldwide Delivery Available
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-zinc-100 px-6 py-4">
+            <div class="max-w-7xl mx-auto flex justify-between items-center">
+                <div class="flex items-center gap-2 cursor-pointer group" onclick="showSection('home')">
+                    <div class="bg-zinc-900 text-white px-2 py-1 font-black italic text-xl transition-transform group-hover:scale-105">STEP UP</div>
+                </div>
+                
+                <div class="hidden lg:flex gap-8 text-[11px] font-bold uppercase tracking-widest">
+                    <button onclick="showSection('home')" class="nav-link hover:text-orange-600 transition-all">Home</button>
+                    <button onclick="showSection('shop')" class="nav-link hover:text-orange-600 transition-all">Shop</button>
+                    <button onclick="showSection('track')" class="nav-link hover:text-orange-600 transition-all">Track Order</button>
+                    <button onclick="showSection('size')" class="nav-link hover:text-orange-600 transition-all">Size Guide</button>
+                    <button onclick="showSection('returns')" class="nav-link hover:text-orange-600 transition-all">Returns</button>
+                    <button onclick="showSection('about')" class="nav-link hover:text-orange-600 transition-all">About Us</button>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <button onclick="showSection('cart')" class="relative p-2 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:text-orange-600 transition-colors"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                        <span id="cart-count" class="hidden absolute -top-1 -right-1 bg-orange-600 text-white text-[8px] w-4 h-4 rounded-full flex items-center justify-center font-bold animate-bounce">0</span>
+                    </button>
+                    <button class="lg:hidden p-2" onclick="toggleMobileMenu()">
+                        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 right-0 bg-white border-b border-zinc-100 p-6 flex flex-col gap-6 shadow-xl text-center">
+                <button onclick="showSection('home')" class="font-black uppercase tracking-widest text-sm">Home</button>
+                <button onclick="showSection('shop')" class="font-black uppercase tracking-widest text-sm">Shop</button>
+                <button onclick="showSection('track')" class="font-black uppercase tracking-widest text-sm">Track Order</button>
+                <button onclick="showSection('size')" class="font-black uppercase tracking-widest text-sm">Size Guide</button>
+                <button onclick="showSection('returns')" class="font-black uppercase tracking-widest text-sm">Returns</button>
+                <button onclick="showSection('about')" class="font-black uppercase tracking-widest text-sm">About Us</button>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Home Section -->
+            <section id="section-home" class="section">
+                <div class="relative h-[85vh] flex items-center justify-center overflow-hidden bg-zinc-900">
+                    <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80&w=1600" class="absolute inset-0 w-full h-full object-cover opacity-60 hero-zoom" alt="Banner" />
+                    <div class="relative text-center z-10 px-6 max-w-4xl">
+                        <h1 class="text-6xl md:text-9xl font-black uppercase tracking-tighter text-white mb-6 leading-[0.85] animate__animated animate__fadeInUp">Step Into <br/> Style</h1>
+                        <p class="text-[12px] md:text-[14px] font-bold uppercase tracking-[0.5em] text-white/80 mb-10 animate__animated animate__fadeInUp">Premium Footwear Crafted for Pakistan & Beyond</p>
+                        <button onclick="showSection('shop')" class="group relative overflow-hidden bg-white text-zinc-900 px-12 py-5 font-black uppercase text-[10px] tracking-widest hover:text-white transition-colors duration-500 animate__animated animate__fadeInUp">
+                            <span class="relative z-10">Shop Collection</span>
+                            <div class="absolute inset-0 bg-orange-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Shop Section -->
+            <section id="section-shop" class="section hidden">
+                <div class="max-w-7xl mx-auto py-16 px-6">
+                    <div class="flex flex-col md:flex-row justify-between items-center mb-16 gap-8">
+                        <h2 class="text-4xl font-black uppercase tracking-tighter">Collections</h2>
+                        <div class="flex gap-4 overflow-x-auto pb-2 w-full md:w-auto no-scrollbar">
+                            <button onclick="filterProducts('All')" class="cat-btn bg-zinc-900 text-white px-8 py-3 rounded-full text-[10px] font-black uppercase tracking-widest">All</button>
+                            <button onclick="filterProducts('Formal')" class="cat-btn bg-zinc-100 text-zinc-400 px-8 py-3 rounded-full text-[10px] font-black uppercase tracking-widest">Formal</button>
+                            <button onclick="filterProducts('Sport')" class="cat-btn bg-zinc-100 text-zinc-400 px-8 py-3 rounded-full text-[10px] font-black uppercase tracking-widest">Sport</button>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12" id="product-grid"></div>
+                </div>
+            </section>
+
+            <!-- Track Order Section -->
+            <section id="section-track" class="section hidden">
+                <div class="max-w-2xl mx-auto py-24 px-6 text-center">
+                    <h2 class="text-5xl font-black uppercase tracking-tighter mb-4">Track Order</h2>
+                    <input id="tracking-input" placeholder="Order ID (ST-8821)" class="w-full p-5 bg-zinc-50 border border-zinc-200 rounded-2xl mb-4 text-center font-bold" />
+                    <button onclick="handleTracking()" class="bg-zinc-900 text-white px-12 py-4 rounded-xl font-bold uppercase text-xs">Search</button>
+                    <div id="tracking-result" class="hidden mt-8 p-8 bg-orange-600 text-white rounded-3xl font-black">ORDER IN TRANSIT</div>
+                </div>
+            </section>
+
+            <!-- Size Guide Section -->
+            <section id="section-size" class="section hidden">
+                <div class="max-w-4xl mx-auto py-24 px-6">
+                    <h2 class="text-5xl font-black uppercase tracking-tighter mb-12 text-center">Size Guide</h2>
+                    <div class="overflow-hidden border border-zinc-100 rounded-3xl shadow-xl">
+                        <table class="w-full text-left" id="size-table">
+                            <thead class="bg-zinc-900 text-white text-[10px] uppercase font-black">
+                                <tr><th class="p-6">EU</th><th class="p-6">UK</th><th class="p-6">US</th><th class="p-6">CM</th></tr>
+                            </thead>
+                            <tbody id="size-table-body" class="divide-y divide-zinc-100 text-xs font-bold uppercase"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Returns Section -->
+            <section id="section-returns" class="section hidden">
+                <div class="max-w-4xl mx-auto py-24 px-6">
+                    <h2 class="text-5xl font-black uppercase tracking-tighter mb-12 text-center">Return Policy</h2>
+                    <div class="bg-zinc-50 p-8 md:p-16 rounded-[3rem] border border-zinc-100 space-y-12">
+                        <div class="flex gap-6 items-start">
+                            <div class="bg-zinc-900 text-white w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl font-black">01</div>
+                            <div>
+                                <h3 class="text-xl font-black uppercase mb-3">7-Day Guarantee</h3>
+                                <p class="text-zinc-500 text-sm leading-relaxed font-medium">We offer a 7-day return policy from the date of delivery. If you are not satisfied with your purchase, you can return or exchange it easily.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div class="bg-orange-600 text-white w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl font-black">02</div>
+                            <div>
+                                <h3 class="text-xl font-black uppercase mb-3">Conditions</h3>
+                                <ul class="text-zinc-500 text-sm leading-relaxed font-medium list-disc ml-4 space-y-2">
+                                    <li>Items must be unworn and in original packaging.</li>
+                                    <li>Tag must be attached to the shoes.</li>
+                                    <li>Proof of purchase (Order ID) is required.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex gap-6 items-start">
+                            <div class="bg-zinc-900 text-white w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl font-black">03</div>
+                            <div>
+                                <h3 class="text-xl font-black uppercase mb-3">How to Return</h3>
+                                <p class="text-zinc-500 text-sm leading-relaxed font-medium">Simply contact our support on WhatsApp at <span class="text-orange-600 font-bold">0304-9972526</span> with your Order ID. Our team will guide you through the return shipping process.</p>
+                            </div>
+                        </div>
+                        <div class="p-6 bg-white border border-dashed border-zinc-200 rounded-2xl text-center">
+                            <p class="text-[10px] font-black uppercase text-zinc-400">Note: Shipping charges are non-refundable for international returns.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="section-about" class="section hidden">
+                <div class="max-w-4xl mx-auto py-24 px-6 text-center">
+                    <h2 class="text-5xl font-black uppercase tracking-tighter mb-12">About Us</h2>
+                    <p class="text-zinc-600 leading-loose">Premium footwear studio based in Karachi, delivering nationwide excellence and worldwide style.</p>
+                </div>
+            </section>
+
+            <!-- Cart Section -->
+            <section id="section-cart" class="section hidden">
+                <div class="max-w-7xl mx-auto py-24 px-6">
+                    <div id="order-success" class="hidden text-center py-24 bg-zinc-50 rounded-3xl">
+                        <h2 class="text-4xl font-black uppercase mb-4">Order Received!</h2>
+                        <p class="text-zinc-500 uppercase tracking-widest text-xs mb-10">We will call you shortly to confirm your details.</p>
+                        <button onclick="showSection('home')" class="bg-zinc-900 text-white px-10 py-5 font-black uppercase text-[10px]">Back Home</button>
+                    </div>
+
+                    <div id="cart-content" class="grid lg:grid-cols-3 gap-16">
+                        <div class="lg:col-span-2">
+                            <h2 class="text-5xl font-black uppercase tracking-tighter mb-10">Shopping Bag</h2>
+                            <div id="cart-items" class="space-y-8 mb-16"></div>
+
+                            <!-- Customer Information Form -->
+                            <div class="bg-zinc-50 p-8 md:p-12 rounded-[2.5rem] border border-zinc-100">
+                                <h3 class="text-2xl font-black uppercase mb-8 flex items-center gap-4">
+                                    <span class="w-8 h-8 bg-zinc-900 text-white text-xs rounded-full flex items-center justify-center">1</span>
+                                    Shipping Details
+                                </h3>
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div class="space-y-2">
+                                        <label class="text-[10px] font-black uppercase text-zinc-400">Full Name</label>
+                                        <input type="text" id="cust-name" class="w-full p-4 bg-white border border-zinc-200 rounded-xl" placeholder="John Doe">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <label class="text-[10px] font-black uppercase text-zinc-400">Phone Number</label>
+                                        <input type="tel" id="cust-phone" class="w-full p-4 bg-white border border-zinc-200 rounded-xl" placeholder="03xx-xxxxxxx">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <label class="text-[10px] font-black uppercase text-zinc-400">Shipping Destination</label>
+                                        <select id="cust-region" onchange="updateCartUI()" class="w-full p-4 bg-white border border-zinc-200 rounded-xl font-bold">
+                                            <option value="pakistan">Inside Pakistan (Free)</option>
+                                            <option value="international">International (Rs. 2,500)</option>
+                                        </select>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <label class="text-[10px] font-black uppercase text-zinc-400">City</label>
+                                        <input type="text" id="cust-city" class="w-full p-4 bg-white border border-zinc-200 rounded-xl" placeholder="Karachi / London">
+                                    </div>
+                                    <div class="md:col-span-2 space-y-2">
+                                        <label class="text-[10px] font-black uppercase text-zinc-400">Complete Address</label>
+                                        <input type="text" id="cust-address" class="w-full p-4 bg-white border border-zinc-200 rounded-xl" placeholder="House #, Street Name, Area">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="cart-summary" class="hidden lg:sticky lg:top-32 h-fit">
+                            <div class="bg-zinc-900 text-white p-10 rounded-[2.5rem] shadow-2xl">
+                                <h3 class="font-black uppercase tracking-widest text-xs mb-8 border-b border-white/10 pb-6">Summary</h3>
+                                <div class="space-y-4 mb-10 text-[11px] font-bold uppercase">
+                                    <div class="flex justify-between text-white/60"><span>Items</span><span id="summary-subtotal">Rs. 0</span></div>
+                                    <div class="flex justify-between text-white/60"><span>Shipping</span><span id="summary-shipping">Rs. 0</span></div>
+                                    <div class="pt-6 flex justify-between text-2xl font-black text-white"><span>Total</span><span id="summary-total">Rs. 0</span></div>
+                                </div>
+                                
+                                <div class="space-y-3 mb-10">
+                                    <p class="text-[9px] font-black uppercase text-white/40">2. Select Payment</p>
+                                    <button onclick="setPayment('cod')" id="btn-cod" class="pay-btn w-full p-4 rounded-xl border-2 border-orange-600 bg-orange-600 text-white font-black text-[10px] uppercase">Cash on Delivery</button>
+                                    <button onclick="setPayment('jazzcash')" id="btn-jazz" class="pay-btn w-full p-4 rounded-xl border-2 border-white/10 text-white/50 font-black text-[10px] uppercase">JazzCash</button>
+                                    
+                                    <div id="jazz-info" class="hidden mt-4 p-5 bg-white text-zinc-900 rounded-2xl text-center">
+                                        <p class="text-[8px] text-zinc-400 uppercase font-black mb-1">Send Payment to:</p>
+                                        <p class="text-orange-600 font-black text-lg tracking-wider">03049972526</p>
+                                        <p class="text-[8px] text-zinc-400 mt-2 uppercase font-bold">Please share screenshot on WhatsApp</p>
+                                    </div>
+                                </div>
+
+                                <button onclick="completeOrder()" class="w-full bg-white text-zinc-900 py-5 rounded-xl font-black uppercase text-[11px] tracking-widest hover:bg-orange-600 hover:text-white transition-all">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-zinc-50 py-20 px-6 border-t border-zinc-100 text-center md:text-left">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
+                <div>
+                    <div class="bg-zinc-900 text-white px-4 py-2 font-black italic text-2xl inline-block mb-6">STEP UP</div>
+                    <p class="text-[10px] text-zinc-400 font-bold uppercase tracking-widest">Premium footwear studio.</p>
+                </div>
+                <div>
+                    <h4 class="font-black uppercase text-xs tracking-widest mb-6">Policies</h4>
+                    <button onclick="showSection('returns')" class="block text-[10px] font-bold uppercase text-zinc-500 mb-2 hover:text-orange-600">Return Policy</button>
+                    <button onclick="showSection('size')" class="block text-[10px] font-bold uppercase text-zinc-500 hover:text-orange-600">Size Guide</button>
+                </div>
+                <div>
+                    <h4 class="font-black uppercase text-xs tracking-widest mb-6">Contact</h4>
+                    <p class="text-[10px] font-bold uppercase text-zinc-500">📞 0304-9972526</p>
+                </div>
+                <div>
+                    <h4 class="font-black uppercase text-xs tracking-widest mb-6">Social</h4>
+                    <p class="text-[10px] font-bold uppercase text-zinc-500">Instagram / Facebook</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        let cart = [];
+        let activePayment = 'cod';
+        const products = [
+            { id: 1, name: "City Walker Pro", price: 4500, category: "Sport", img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=600" },
+            { id: 2, name: "Royal Executive", price: 8500, category: "Formal", img: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&q=80&w=600" },
+            { id: 3, name: "Street Flex Grey", price: 3200, category: "Casual", img: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&q=80&w=600" }
+        ];
+
+        const sizeChart = [
+            { eu: 39, uk: 5.5, us: 6, cm: 24.5 },
+            { eu: 40, uk: 6.5, us: 7, cm: 25.0 },
+            { eu: 41, uk: 7.5, us: 8, cm: 26.0 },
+            { eu: 42, uk: 8, us: 8.5, cm: 26.5 },
+            { eu: 43, uk: 9, us: 9.5, cm: 27.5 }
+        ];
+
+        function showSection(id) {
+            document.querySelectorAll('.section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(`section-${id}`).classList.remove('hidden');
+            window.scrollTo(0,0);
+            document.getElementById('mobile-menu').classList.add('hidden');
+        }
+
+        function toggleMobileMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+
+        function filterProducts(cat) {
+            const grid = document.getElementById('product-grid');
+            grid.innerHTML = '';
+            const filtered = cat === 'All' ? products : products.filter(p => p.category === cat);
+            filtered.forEach(p => {
+                grid.innerHTML += `
+                    <div class="group cursor-pointer">
+                        <div class="aspect-[4/5] bg-zinc-100 overflow-hidden mb-6 relative rounded-2xl">
+                            <img src="${p.img}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            <div class="absolute bottom-6 left-6 right-6 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">
+                                <button onclick="addToCart(${p.id})" class="w-full bg-white py-4 font-black uppercase text-[10px] tracking-widest hover:bg-orange-600 hover:text-white transition-colors rounded-xl">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="flex justify-between items-start px-2">
+                            <div>
+                                <h4 class="font-black uppercase tracking-tight text-lg">${p.name}</h4>
+                                <p class="text-zinc-400 text-[10px] font-bold uppercase tracking-widest">${p.category}</p>
+                            </div>
+                            <p class="font-black text-orange-600">Rs. ${p.price.toLocaleString()}</p>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function addToCart(id) {
+            const product = products.find(p => p.id === id);
+            const exists = cart.find(item => item.id === id);
+            if (exists) exists.quantity++;
+            else cart.push({ ...product, quantity: 1 });
+            updateCartUI();
+            showSection('cart');
+        }
+
+        function updateCartUI() {
+            const itemsContainer = document.getElementById('cart-items');
+            const region = document.getElementById('cust-region').value;
+            const shippingCost = region === 'international' ? 2500 : 0;
+            
+            const totalItems = cart.reduce((acc, i) => acc + i.quantity, 0);
+            document.getElementById('cart-count').innerText = totalItems;
+            document.getElementById('cart-count').classList.toggle('hidden', totalItems === 0);
+            document.getElementById('cart-summary').classList.toggle('hidden', totalItems === 0);
+
+            itemsContainer.innerHTML = '';
+            let subtotal = 0;
+            
+            if (cart.length === 0) {
+                itemsContainer.innerHTML = `<div class="py-20 text-center bg-zinc-50 rounded-3xl font-bold uppercase text-zinc-400">Empty</div>`;
+            }
+
+            cart.forEach(item => {
+                subtotal += item.price * item.quantity;
+                itemsContainer.innerHTML += `
+                    <div class="flex gap-6 items-center p-4 bg-white border border-zinc-100 rounded-3xl">
+                        <img src="${item.img}" class="w-20 h-20 object-cover rounded-xl" />
+                        <div class="flex-1">
+                            <h4 class="font-black uppercase text-sm">${item.name}</h4>
+                            <p class="text-[10px] font-bold text-orange-600 mt-1">Rs. ${item.price.toLocaleString()}</p>
+                        </div>
+                        <div class="flex items-center gap-3 bg-zinc-50 p-2 rounded-xl">
+                            <button onclick="changeQty(${item.id}, -1)" class="w-8 h-8 bg-white border rounded-lg">-</button>
+                            <span class="font-black text-xs">${item.quantity}</span>
+                            <button onclick="changeQty(${item.id}, 1)" class="w-8 h-8 bg-white border rounded-lg">+</button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            const total = subtotal + shippingCost;
+            document.getElementById('summary-subtotal').innerText = `Rs. ${subtotal.toLocaleString()}`;
+            document.getElementById('summary-shipping').innerText = shippingCost === 0 ? 'FREE' : `Rs. ${shippingCost.toLocaleString()}`;
+            document.getElementById('summary-total').innerText = `Rs. ${total.toLocaleString()}`;
+        }
+
+        function changeQty(id, delta) {
+            const item = cart.find(i => i.id === id);
+            item.quantity += delta;
+            if (item.quantity <= 0) cart = cart.filter(i => i.id !== id);
+            updateCartUI();
+        }
+
+        function setPayment(method) {
+            activePayment = method;
+            document.querySelectorAll('.pay-btn').forEach(b => {
+                b.classList.remove('border-orange-600', 'bg-orange-600', 'text-white');
+                b.classList.add('border-white/10', 'text-white/50');
+            });
+            const activeId = method === 'cod' ? 'btn-cod' : 'btn-jazz';
+            document.getElementById(activeId).classList.add('border-orange-600', 'bg-orange-600', 'text-white');
+            document.getElementById('jazz-info').classList.toggle('hidden', method !== 'jazzcash');
+        }
+
+        function completeOrder() {
+            const name = document.getElementById('cust-name').value;
+            const phone = document.getElementById('cust-phone').value;
+            const address = document.getElementById('cust-address').value;
+
+            if (!name || !phone || !address) {
+                alert("Please fill in all shipping details first.");
+                return;
+            }
+
+            document.getElementById('cart-content').classList.add('hidden');
+            document.getElementById('order-success').classList.remove('hidden');
+            cart = [];
+            updateCartUI();
+        }
+
+        function handleTracking() {
+            document.getElementById('tracking-result').classList.remove('hidden');
+        }
+
+        window.onload = () => {
+            filterProducts('All');
+            const sizeBody = document.getElementById('size-table-body');
+            sizeChart.forEach(s => {
+                sizeBody.innerHTML += `<tr><td class="p-6">EU ${s.eu}</td><td class="p-6">UK ${s.uk}</td><td class="p-6">US ${s.us}</td><td class="p-6 text-orange-600">${s.cm}</td></tr>`;
+            });
+        }
+    </script>
+</body>
+</html>
