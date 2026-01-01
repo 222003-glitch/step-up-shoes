@@ -1,0 +1,1146 @@
+{
+  "id": "54ba327f-0a0b-4bad-adf5-59f4f70d3e1e",
+  "siteName": "Step Up Shoes",
+  "domainUrl": "stepupclothes.com",
+  "brandingPresets": [
+    {
+      "presetId": "26e950fa-e2f7-492c-9dea-e506dd19d42f",
+      "brandIdentity": {
+        "designSummary": "This brand identity embraces a vibrant and playful visual style characterized by bold, saturated colors and expressive, hand-drawn typography. The primary color palette features bright yellow as the main background, complemented by royal blue and vivid red accents that create energetic contrasts. Secondary colors like soft pink and medium blue are used strategically to differentiate product categories and flavor profiles. The typography is dominated by a brush script style font that is informal, dynamic, and friendly, paired with clean sans-serif fonts for body text to ensure readability. The layout combines a modular grid system with organic, flowing wave shapes that add movement and visual interest, breaking the rigidity of traditional grids. Graphic elements include whimsical, cartoonish product illustrations outlined with thick strokes and playful fruit stickers, reinforcing a handcrafted and artisanal feel. Buttons are rounded with subtle shadows, using bright red for primary calls to action and black for secondary buttons, ensuring clear visibility and inviting interaction. Overall, the design conveys a youthful, energetic, and approachable brand personality, suitable for lifestyle and craft beverage brands seeking to engage a fun-loving audience.",
+        "toneOfVoice": "Playful, energetic, friendly, creative, and approachable.",
+        "tones": [
+          "Vibrant",
+          "Youthful",
+          "Whimsical",
+          "Bold",
+          "Artisanal",
+          "Inviting",
+          "Dynamic",
+          "Fun",
+          "Expressive",
+          "Energetic"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Playful",
+            "Handcrafted",
+            "Bold"
+          ],
+          "supportingStyles": [
+            "Organic",
+            "Modular Grid",
+            "Illustrative"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#F7C948",
+            "primaryForeground": "#210D3A",
+            "secondary": "#1557C0",
+            "secondaryForeground": "#FFFFFF",
+            "background": "#FFFFFF",
+            "customColors": [
+              {
+                "name": "brandaccent",
+                "value": "#D93F3F"
+              },
+              {
+                "name": "sweetbackground",
+                "value": "#F9A8D4"
+              },
+              {
+                "name": "sourbackground",
+                "value": "#3B82F6"
+              },
+              {
+                "name": "buttontextprimary",
+                "value": "#FFFFFF"
+              },
+              {
+                "name": "buttonbackgroundsecondary",
+                "value": "#000000"
+              },
+              {
+                "name": "foreground",
+                "value": "#210D3A"
+              },
+              {
+                "name": "destructiveforeground",
+                "value": "#FFFFFF"
+              },
+              {
+                "name": "destructive",
+                "value": "#DF3131"
+              }
+            ]
+          },
+          "paletteUsageGuide": "Use the 'primary' color as the dominant background in hero sections to create a warm and energetic atmosphere, with text and key graphics in 'primaryForeground' to ensure strong contrast and readability. The 'secondary' color serves as a vibrant accent for section backgrounds and interactive elements, paired with 'secondaryForeground' for clear text visibility. The 'brandAccent' color is reserved for primary call-to-action buttons and highlights, drawing user attention effectively. Background colors like 'sweetBackground' and 'sourBackground' differentiate product categories, reinforcing flavor profiles through color coding. Buttons use 'brandAccent' with 'buttonTextPrimary' for primary actions, while secondary buttons use 'buttonBackgroundSecondary' with 'buttonTextPrimary' to maintain contrast and hierarchy. The 'background' color is used for navigation and content areas to provide a clean, neutral canvas. This palette ensures a lively, playful, and accessible user experience with sufficient contrast for readability and interaction.",
+          "paletteAccessibilityNotes": "The 'primaryForeground' color on 'primary' background meets WCAG AA standards for large and normal text, ensuring readability. The 'secondaryForeground' on 'secondary' background also meets WCAG AA contrast requirements. The 'buttonTextPrimary' on 'brandAccent' buttons provides sufficient contrast for accessibility. Secondary buttons with 'buttonTextPrimary' on 'buttonBackgroundSecondary' maintain high contrast ratios. Background colors 'sweetBackground' and 'sourBackground' paired with black or white text have been tested to meet minimum contrast ratios for body and heading text, supporting inclusive design."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "Primary Heading Font",
+              "fontFamily": "spicy-rice",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [
+              "lobster",
+              "fredericka the great",
+              "cookie"
+            ],
+            "headingsUsageGuide": "Use the heading font for all major titles and key brand statements to convey personality and energy. Pair with simpler paragraph fonts to maintain readability and hierarchy. Maintain generous spacing around headings to allow the expressive letterforms to breathe. Avoid using this font for body text to preserve legibility. Use 'primaryForeground' or 'secondaryForeground' colors for headings depending on background for optimal contrast.",
+            "headingsAccessibilityNotes": "Headings using this font with 'primaryForeground' on 'primary' background and 'secondaryForeground' on 'secondary' background meet WCAG AA contrast standards for large text. Ensure sufficient size and spacing to maintain readability given the decorative style."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "Main Body Text Font",
+              "fontFamily": "open sans",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [
+              "nunito sans",
+              "raleway",
+              "poppins-v2"
+            ],
+            "paragraphsUsageGuide": "Use the paragraph font for all body copy, descriptions, and smaller informational text. It pairs well with the expressive heading font by providing clarity and neutrality. Maintain consistent line height and letter spacing for comfortable reading. Use 'primaryForeground' or black text on light backgrounds and white text on dark backgrounds to ensure contrast.",
+            "paragraphsAccessibilityNotes": "Body text using this font with 'primaryForeground' or black on 'background' or 'sweetBackground' meets WCAG AA contrast requirements. White text on 'secondary' or 'sourBackground' also meets accessibility standards."
+          },
+          "welcomeSectionTypography": {
+            "placement": "Centered",
+            "implementation": "The welcome section uses a large, bold, and expressive heading centered horizontally and vertically within the hero area. The heading is paired with a product image offset to the left and a call-to-action button on the right, creating a balanced asymmetrical composition. The typography is oversized to command attention, with generous spacing around the text to emphasize its playful brush script style. The background uses a bright 'primary' color to enhance vibrancy, while the text uses 'primaryForeground' for strong contrast. This placement strategy creates an inviting and energetic introduction to the brand."
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "1.4",
+              "letterSpacing": "0.02em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.015em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.01em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1",
+              "letterSpacing": "0em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Balanced",
+            "contrastSpectrum": "High-Contrast",
+            "gridAlignmentSpectrum": "Modular",
+            "negativeSpaceUsage": "Functional",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Moderately Complex"
+          },
+          "grid": {
+            "compositionApproach": "Modular with organic wave separators",
+            "spacing": {
+              "columns": "12-column grid",
+              "rows": "Defined content rows",
+              "gaps": "Consistent medium gaps"
+            },
+            "margins": "Generous page margins",
+            "padding": "Consistent padding within containers"
+          }
+        },
+        "components": {
+          "containers": "Containers use solid background colors from the palette to differentiate sections, with generous padding and rounded corners in some cases. The header container is a white pill-shaped bar with rounded edges, creating a friendly and approachable navigation area. Section containers are separated by organic wave shapes that add visual flow and break grid rigidity.",
+          "images": "Product images are stylized cans with hand-drawn, cartoonish animal faces outlined with thick black strokes and subtle shadows, creating a playful and artistic look. Images are prominently placed and often offset asymmetrically to create dynamic layouts.",
+          "buttons": "Buttons are rounded with subtle shadows or offset layers to create a slight 3D effect. Primary buttons use the 'brandAccent' color with 'buttonTextPrimary' for text, ensuring high visibility and inviting interaction. Secondary buttons use black backgrounds with white text for contrast on lighter backgrounds. Button typography uses the playful brush script font to maintain brand personality."
+        },
+        "graphicElements": {
+          "icons": "Icons are minimal or absent; the design relies more on illustrative elements and typography for personality.",
+          "illustrations": "Hand-drawn, cartoonish illustrations of fruits (lime, strawberry, lemon) appear as stickers or badges scattered around the 'About Us' section, reinforcing the handcrafted and whimsical brand identity.",
+          "stickers": "Sticker-style fruit illustrations with thick outlines and bright colors add playful accents and visual interest, enhancing the artisanal feel."
+        }
+      },
+      "originImagesUrls": [
+        "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1752411571376-Screenshot%202025-07-13%20at%2015.48.44.png"
+      ]
+    },
+    {
+      "presetId": "9b140696-cdd9-44b4-8aa4-b8af0cde332a",
+      "brandIdentity": {
+        "designSummary": "The design features a minimalistic and modern aesthetic with a strong emphasis on a vivid red color palette contrasted against a light cream background. Typography is clean, geometric, and sans-serif, used consistently across headings and body text to maintain clarity and readability. The layout is structured with a strict grid system, generous spacing, and clear visual hierarchy. Red is used boldly for backgrounds, text, borders, and UI accents, while the light background provides balance and high contrast. Interactive elements are minimal and refined, often using red outlines or text. The overall style is editorial and professional, conveying passion and energy through color and confident typography.",
+        "toneOfVoice": "Confident, bold, modern, and sophisticated with an approachable and editorial personality.",
+        "tones": [
+          "Bold",
+          "Confident",
+          "Modern",
+          "Minimalistic",
+          "Energetic",
+          "Sophisticated",
+          "Clean",
+          "Editorial",
+          "Passionate",
+          "Approachable"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Minimalism",
+            "Editorial"
+          ],
+          "supportingStyles": [
+            "Modern",
+            "Geometric"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#E60023",
+            "primaryForeground": "#FFFFFF",
+            "secondary": "#F7F5F2",
+            "secondaryForeground": "#E60023",
+            "background": "#FFFFFF",
+            "customColors": [
+              {
+                "name": "borderaccent",
+                "value": "#E60023"
+              },
+              {
+                "name": "foreground",
+                "value": "#E60023"
+              },
+              {
+                "name": "destructive",
+                "value": "#DF3131"
+              },
+              {
+                "name": "destructiveforeground",
+                "value": "#FFFFFF"
+              }
+            ]
+          },
+          "paletteUsageGuide": "Use the 'primary' color predominantly for backgrounds, key text elements, and interactive UI components such as buttons and navigation highlights. The 'primaryForeground' color should be used for text and icons placed on 'primary' backgrounds to ensure maximum readability. The 'secondary' color serves as the main background and base canvas, providing a soft, neutral contrast to the vibrant 'primary'. Text and UI elements on 'secondary' backgrounds should use the 'secondaryForeground' color to maintain strong contrast and brand consistency. The 'borderAccent' custom color is used for thin lines and separators to subtly reinforce the brand identity without overwhelming the layout. This palette ensures a bold yet balanced visual experience, with high contrast for accessibility and a cohesive brand presence.",
+          "paletteAccessibilityNotes": "The combination of 'primaryForeground' on 'primary' backgrounds meets WCAG AA standards for text and UI elements, ensuring readability. Similarly, 'secondaryForeground' on 'secondary' backgrounds provides sufficient contrast for body text and navigation. Borders and accents using 'borderAccent' on 'secondary' backgrounds maintain clear visibility without causing visual strain. Overall, the palette supports accessible design practices with strong contrast ratios suitable for diverse user needs."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "Primary Heading Font",
+              "fontFamily": "avenir-lt-w01_85-heavy1475544",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [
+              "futura-lt-w01-bold",
+              "montserrat-black-new",
+              "oswald-extralight"
+            ],
+            "headingsUsageGuide": "Use the heading font in bold weights for titles, section headers, and navigation labels to create strong visual hierarchy. Pair headings with the paragraph font to maintain readability and balance. Maintain consistent letter spacing and line height to preserve clarity. Headings should primarily use the 'primary' or 'secondaryForeground' colors depending on background for optimal contrast. Avoid decorative styles to keep the modern and minimalistic tone.",
+            "headingsAccessibilityNotes": "Headings using the 'primary' color on 'secondary' backgrounds and 'primaryForeground' on 'primary' backgrounds meet WCAG AA contrast requirements, ensuring legibility for users with visual impairments."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "Main Body Text Font",
+              "fontFamily": "avenir-lt-w01_35-light1475496",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [
+              "open sans",
+              "rubik-v2",
+              "work-sans-v2"
+            ],
+            "paragraphsUsageGuide": "Use the paragraph font in lighter weights for body text, descriptions, and secondary UI text. It pairs harmoniously with the bold heading font to create a balanced typographic hierarchy. Text should primarily use the 'secondaryForeground' color on 'secondary' backgrounds for comfortable reading. Maintain adequate line height and letter spacing to enhance legibility, especially in longer text blocks.",
+            "paragraphsAccessibilityNotes": "Paragraph text using 'secondaryForeground' on 'secondary' backgrounds meets WCAG AA contrast standards, supporting accessibility and user comfort."
+          },
+          "welcomeSectionTypography": {
+            "placement": "Hero section - Central Vertical Stack with Framing Images",
+            "implementation": "The welcome section uses a centered typographic placement to create a strong focal point. Large, elegant serif headings are placed centrally with ample white space around them, emphasizing formality and importance. Supporting script text is positioned close to the headings to add a personal, romantic touch. The layout balances text and imagery symmetrically, reinforcing the refined and calm atmosphere."
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "500"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.4",
+              "letterSpacing": "0.03em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.03em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.035em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.04em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.04em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.045em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1.05",
+              "letterSpacing": "0.05em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1.05",
+              "letterSpacing": "0.05em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.06em",
+              "fontWeight": "900"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Balanced",
+            "contrastSpectrum": "High-Contrast",
+            "gridAlignmentSpectrum": "Strict Grid",
+            "negativeSpaceUsage": "Generous",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Simple & Clean"
+          },
+          "grid": {
+            "compositionApproach": "Central Headline with Surrounding Images Mosaic",
+            "spacing": {
+              "columns": "12-column grid",
+              "rows": "Defined content rows",
+              "gaps": "Consistent medium gaps"
+            },
+            "margins": "Generous page margins",
+            "padding": "Consistent padding within containers"
+          }
+        },
+        "components": {
+          "containers": "Containers use the 'secondary' background color with generous padding and clear separation using 'borderAccent' thin red lines. They maintain a clean and minimalistic style, supporting content clarity and visual hierarchy.",
+          "images": "Images are presented in clean rectangular frames without shadows or borders, allowing the vibrant content to stand out against the minimal background. Captions and labels use the 'primary' color for emphasis.",
+          "buttons": "Buttons are minimal with solid 'primary' backgrounds and 'primaryForeground' text for primary actions. Secondary buttons use transparent backgrounds with 'primary' colored borders and text, maintaining a consistent and bold brand presence."
+        },
+        "graphicElements": {
+          "icons": "Icons are minimal or absent, with any used icons adopting the 'primary' color to maintain brand consistency and visual harmony.",
+          "illustrations": "No illustrations are present; the design relies on photography and typography for visual interest.",
+          "stickers": "No stickers or badges are used, preserving the clean and editorial aesthetic."
+        }
+      },
+      "originImagesUrls": [
+        "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1752407909401-Frame%201707483520.jpg"
+      ]
+    },
+    {
+      "presetId": "4c334683-da80-41d8-8fd1-752a8fa4bcc6",
+      "brandIdentity": {
+        "designSummary": "This design features a bold and minimalistic aesthetic with a strong focus on typography and color contrast. The primary color is a vivid burnt orange used consistently for headings, navigation, and accents, set against a clean white background that enhances readability and impact. A bright yellow accent block introduces a vibrant highlight area that draws user attention effectively. Typography combines an elegant serif italic font for subtle sophistication with a bold, uppercase sans-serif font that conveys modernity and strength. The layout balances spacious white space with a dynamic, asymmetrical collage of images, creating visual interest without clutter. The overall style is artistic and contemporary, suitable for creative professionals seeking a distinctive and memorable brand presence.",
+        "toneOfVoice": "Confident, creative, modern, and slightly avant-garde with a professional yet approachable personality.",
+        "tones": [
+          "Bold",
+          "Creative",
+          "Modern",
+          "Minimalistic",
+          "Confident",
+          "Artistic",
+          "Vibrant",
+          "Professional",
+          "Approachable",
+          "Elegant"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Minimalism",
+            "Modern",
+            "Editorial"
+          ],
+          "supportingStyles": [
+            "Artistic",
+            "Avant-Garde",
+            "Collage"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#C8431B",
+            "primaryForeground": "#FFFFFF",
+            "secondary": "#FFFF8D",
+            "secondaryForeground": "#C8431B",
+            "background": "#FFFFFF",
+            "customColors": [
+              {
+                "name": "foreground",
+                "value": "#C8431B"
+              },
+              {
+                "name": "destructive",
+                "value": "#DF3131"
+              },
+              {
+                "name": "destructiveforeground",
+                "value": "#FFFFFF"
+              }
+            ]
+          },
+          "paletteUsageGuide": "Use the 'primary' color predominantly for all key textual elements including headings, navigation links, and call-to-action text to establish a strong brand presence. The 'background' color should remain white to maintain clarity and contrast. The 'secondary' color serves as a vibrant accent background for important sections or highlights, with text in 'secondaryForeground' to ensure readability and visual harmony. This limited palette ensures high contrast and accessibility while supporting a bold and creative aesthetic. Avoid diluting the palette with additional colors to maintain brand consistency and impact.",
+          "paletteAccessibilityNotes": "The 'primary' color on 'background' white provides excellent contrast exceeding WCAG AA standards for text and UI elements. The 'secondary' yellow background with 'secondaryForeground' burnt orange text also meets WCAG AA contrast requirements for large text, ensuring accessibility for highlighted sections. This palette supports clear readability and visual hierarchy across the site."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "Primary Heading Font",
+              "fontFamily": "raleway",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [
+              "montserrat",
+              "oswald",
+              "league spartan"
+            ],
+            "headingsUsageGuide": "Use the heading font in uppercase and bold weight for main titles and section headers to create a strong visual hierarchy. Pair with the serif italic font for stylistic contrast in subheadings or emphasized words. Maintain generous spacing around headings to preserve clarity and impact. Use 'primary' color for headings to ensure brand consistency and visibility.",
+            "headingsAccessibilityNotes": "Headings in 'primary' color on 'background' white meet WCAG AA contrast standards, ensuring readability for all users."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "Secondary Text Font",
+              "fontFamily": "playfair display",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [
+              "bitter",
+              "cormorantgaramond",
+              "playfair display"
+            ],
+            "paragraphsUsageGuide": "Use the paragraph font primarily for subheadings, emphasized text, or smaller blocks of text that require a touch of elegance. Italic styling adds visual interest and differentiation from headings. Pair with the bold sans-serif headings for a balanced typographic hierarchy. Use 'primary' color for text to maintain consistency and readability.",
+            "paragraphsAccessibilityNotes": "Paragraph text in 'primary' color on 'background' white meets WCAG AA contrast standards, supporting accessibility."
+          },
+          "welcomeSectionTypography": {
+            "placement": "Centered",
+            "implementation": "The welcome section features a large, bold heading centered horizontally at the top of the page, combining a serif italic word with a bold uppercase sans-serif phrase. This creates a strong focal point. The image is placed directly below the heading, also centered, maintaining visual balance. The navigation links are aligned horizontally at the top corners, framing the welcome content. The use of ample white space around these elements enhances focus and readability."
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.02em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.025em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.03em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "1.4",
+              "letterSpacing": "0.03em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.04em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.04em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.05em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "0.05em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.06em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.06em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "0.07em",
+              "fontWeight": "900"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Balanced",
+            "contrastSpectrum": "High-Contrast",
+            "gridAlignmentSpectrum": "Modular with Asymmetrical Elements",
+            "negativeSpaceUsage": "Generous",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Simple & Clean with Artistic Overlays"
+          },
+          "grid": {
+            "compositionApproach": "Modular grid with asymmetrical collage for images",
+            "spacing": {
+              "columns": "12-column grid",
+              "rows": "Implicit rows with flexible height",
+              "gaps": "Consistent medium gaps"
+            },
+            "margins": "Generous page margins to enhance white space",
+            "padding": "Consistent padding within content blocks"
+          }
+        },
+        "components": {
+          "containers": "Containers use clean white backgrounds with generous padding and margins to separate content sections clearly. The yellow accent container stands out as a highlight area. Borders are minimal or absent, relying on color blocks and spacing for separation.",
+          "images": "Images are presented in a collage style with varied sizes and overlapping placements. They have a soft, artistic blur effect and vibrant colors, adding visual interest without dominating the layout.",
+          "buttons": "Buttons and interactive elements use the 'primary' color for text and outlines, maintaining minimalistic styling. They are typically small, uppercase, and unobtrusive, blending seamlessly with the overall design."
+        },
+        "graphicElements": {
+          "icons": "No icons are used; the design relies on typography and imagery for visual communication.",
+          "illustrations": "No illustrations are present; artistic photographic images serve as the primary visual elements.",
+          "stickers": "No stickers or badges are used in the design."
+        }
+      },
+      "originImagesUrls": [
+        "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1752421849829-Screenshot%202025-07-13%20at%2018.50.19.png"
+      ]
+    },
+    {
+      "presetId": "fbe22d5c-5801-4bc4-bf10-e211a4ed0cbf",
+      "brandIdentity": {
+        "designSummary": "This design features a vibrant and high-contrast color palette anchored by the 'primary' navy blue and 'secondary' bright orange, set against a warm beige 'background' that balances the intensity. The typography is assertive and condensed for headings, emphasizing uppercase letters to convey strength and adventure, while body text remains clean and legible. The layout is modular and grid-based, with clear divisions and balanced use of imagery and text. Graphic elements such as simple line icons and horizontal borders add structure and guide the user visually. The overall aesthetic is dynamic and approachable, suitable for brands that want to evoke excitement and confidence in an outdoor or active lifestyle context.",
+        "toneOfVoice": "Bold, energetic, confident, and adventurous with a modern yet slightly retro edge.",
+        "tones": [
+          "Energetic",
+          "Adventurous",
+          "Confident",
+          "Bold",
+          "Modern",
+          "Approachable",
+          "Dynamic",
+          "Structured",
+          "Vibrant",
+          "Clear"
+        ],
+        "designStyle": {
+          "primaryStyle": [
+            "Bold",
+            "Modular",
+            "Grid-Based"
+          ],
+          "supportingStyles": [
+            "Retro-Modern",
+            "Minimalist",
+            "Editorial"
+          ]
+        },
+        "palette": {
+          "colors": {
+            "primary": "#1A1A6B",
+            "primaryForeground": "#FFFFFF",
+            "secondary": "#FF5A00",
+            "secondaryForeground": "#1A1A6B",
+            "background": "#F0E6D2",
+            "customColors": [
+              {
+                "name": "accentteal",
+                "value": "#3E6B66"
+              },
+              {
+                "name": "foreground",
+                "value": "#1A1A6B"
+              },
+              {
+                "name": "destructiveforeground",
+                "value": "#FFFFFF"
+              },
+              {
+                "name": "destructive",
+                "value": "#DF3131"
+              }
+            ]
+          },
+          "paletteUsageGuide": "Use the 'primary' color predominantly for headings, navigation text, and key interactive elements to convey strength and focus. The 'secondary' color is ideal for call-to-action buttons, highlights, and important accents; always pair 'secondary' backgrounds with 'primary' (#1A1A6B) text/icons for accessibility. The 'background' color provides a warm, neutral canvas. The 'accentTeal' color is best used for banners/decor, not essential text. Text on 'primary' backgrounds uses 'primaryForeground' (#FFFFFF), and text on 'secondary' backgrounds uses 'primary' (#1A1A6B) for maximum contrast and accessibility.",
+          "paletteAccessibilityNotes": "The 'primary' color (#1A1A6B) on 'background' (#F0E6D2) is fully accessible for all text. The 'secondary' color (#FF5A00) on 'background' is accessible for large text. On 'secondary' (#FF5A00) backgrounds, always use 'primary' (#1A1A6B) for text and icons—never white."
+        },
+        "typography": {
+          "headings": {
+            "font": {
+              "role": "Primary Heading Font",
+              "fontFamily": "oswald-medium",
+              "fontJustification": ""
+            },
+            "headingsSimilarFonts": [
+              "oswald",
+              "anton",
+              "bebas neue"
+            ],
+            "headingsUsageGuide": "Use the heading font in uppercase for all major titles and navigation links to convey energy and confidence. Pair with the paragraph font for contrast, ensuring headings stand out clearly. Maintain consistent letter spacing and line height to preserve readability. Use 'primary' color for headings on light backgrounds and 'primaryForeground' on dark backgrounds to ensure accessibility.",
+            "headingsAccessibilityNotes": "Headings in 'primary' on 'background' meet WCAG AA contrast standards. When placed on 'secondary' or 'primary' backgrounds, use 'primary' (#1A1A6B) text for accessibility."
+          },
+          "paragraphs": {
+            "font": {
+              "role": "Main Body Text Font",
+              "fontFamily": "azeret-mono",
+              "fontJustification": ""
+            },
+            "paragraphsSimilarFonts": [
+              "raleway",
+              "nunito sans",
+              "poppins-v2"
+            ],
+            "paragraphsUsageGuide": "Use the paragraph font for all body text, descriptions, and secondary information. Maintain a comfortable line height and letter spacing for readability. Paragraph text should primarily use 'primary' color on 'background' for optimal contrast. Avoid using paragraph fonts in all uppercase to preserve legibility.",
+            "paragraphsAccessibilityNotes": "Paragraph text in 'primary' on 'background' meets WCAG AA contrast requirements for body text. On 'secondary' background, always use 'primary' text for accessibility."
+          },
+          "welcomeSectionTypography": {
+            "placement": "Centered",
+            "implementation": "The welcome section uses a large, bold heading centered horizontally and vertically over a full-width background image. The heading is uppercase and spaced tightly to create a strong visual impact. A call-to-action button is placed directly below the heading, aligned center, maintaining balance and focus. The background image is slightly darkened to ensure text legibility, and the typography contrasts sharply with the background using the 'primaryForeground' color."
+          },
+          "fontSizes": [
+            {
+              "name": "xs",
+              "size": "0.75rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0.05em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "sm",
+              "size": "0.875rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.04em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "base",
+              "size": "1rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.03em",
+              "fontWeight": "400"
+            },
+            {
+              "name": "lg",
+              "size": "1.125rem",
+              "lineHeight": "1.5",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "xl",
+              "size": "1.25rem",
+              "lineHeight": "1.4",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            },
+            {
+              "name": "2xl",
+              "size": "1.5rem",
+              "lineHeight": "1.3",
+              "letterSpacing": "0.01em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "3xl",
+              "size": "1.875rem",
+              "lineHeight": "1.2",
+              "letterSpacing": "0em",
+              "fontWeight": "700"
+            },
+            {
+              "name": "4xl",
+              "size": "2.25rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "5xl",
+              "size": "3rem",
+              "lineHeight": "1.1",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "800"
+            },
+            {
+              "name": "6xl",
+              "size": "3.75rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "7xl",
+              "size": "4.5rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.04em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "8xl",
+              "size": "6rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.05em",
+              "fontWeight": "900"
+            },
+            {
+              "name": "9xl",
+              "size": "8rem",
+              "lineHeight": "1",
+              "letterSpacing": "-0.06em",
+              "fontWeight": "900"
+            }
+          ]
+        },
+        "layout": {
+          "layoutDna": {
+            "densitySpectrum": "Balanced",
+            "contrastSpectrum": "High-Contrast",
+            "gridAlignmentSpectrum": "Strict Grid",
+            "negativeSpaceUsage": "Functional",
+            "textVsImageEmphasis": "Balanced",
+            "complexitySpectrum": "Moderately Complex"
+          },
+          "grid": {
+            "compositionApproach": "Column-based",
+            "spacing": {
+              "columns": "12-column grid",
+              "rows": "Defined content rows",
+              "gaps": "Consistent medium gaps"
+            },
+            "margins": "Generous page margins",
+            "padding": "Consistent padding within containers"
+          }
+        },
+        "components": {
+          "containers": "Containers use solid 'background' color with clear borders or shadows in 'accentTeal' or 'primary' to separate content blocks. They maintain consistent padding and margin to ensure content clarity and visual hierarchy.",
+          "images": "Images are framed with subtle borders or shadows in 'accentTeal' or 'primary' to integrate them into the layout. They maintain consistent aspect ratios and spacing, supporting the modular grid structure.",
+          "buttons": "Buttons use 'secondary' color backgrounds with 'primary' text for calls-to-action (never white). Secondary buttons may use 'primary' color outlines with 'primary' text. Hover states invert colors or add subtle shadows to enhance interactivity."
+        },
+        "graphicElements": {
+          "icons": "Icons are simple, line-based, and use the 'primary' color for consistency. They are sized proportionally to text and used to visually represent activities or actions without overwhelming the layout.",
+          "illustrations": "No prominent illustrations are used; the design relies on photography and minimal graphic elements to maintain a clean, modern look.",
+          "stickers": "Stickers or badges use 'secondary' color backgrounds with 'primary' text and simple borders or lines in 'primary' to highlight special offers or categories."
+        }
+      },
+      "originImagesUrls": [
+        "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1752422904154-Screenshot%202025-07-13%20at%2019.07.26.png"
+      ]
+    }
+  ],
+  "brandBook": {
+    "tones": [
+      "Vibrant",
+      "Youthful",
+      "Whimsical",
+      "Bold",
+      "Artisanal",
+      "Inviting",
+      "Dynamic",
+      "Fun",
+      "Expressive",
+      "Energetic"
+    ],
+    "designStyle": {
+      "primaryStyle": [
+        "Playful",
+        "Handcrafted",
+        "Bold"
+      ],
+      "supportingStyles": [
+        "Organic",
+        "Modular Grid",
+        "Illustrative"
+      ]
+    },
+    "toneOfVoice": "Playful, energetic, friendly, creative, and approachable.",
+    "components": {
+      "images": "Product images are stylized cans with hand-drawn, cartoonish animal faces outlined with thick black strokes and subtle shadows, creating a playful and artistic look. Images are prominently placed and often offset asymmetrically to create dynamic layouts.",
+      "buttons": "Buttons are rounded with subtle shadows or offset layers to create a slight 3D effect. Primary buttons use the 'brandAccent' color with 'buttonTextPrimary' for text, ensuring high visibility and inviting interaction. Secondary buttons use black backgrounds with white text for contrast on lighter backgrounds. Button typography uses the playful brush script font to maintain brand personality.",
+      "containers": "Containers use solid background colors from the palette to differentiate sections, with generous padding and rounded corners in some cases. The header container is a white pill-shaped bar with rounded edges, creating a friendly and approachable navigation area. Section containers are separated by organic wave shapes that add visual flow and break grid rigidity."
+    },
+    "typography": {
+      "headings": {
+        "font": {
+          "role": "Primary Heading Font",
+          "fontFamily": "spicy-rice",
+          "fontJustification": ""
+        },
+        "headingsUsageGuide": "Use the heading font for all major titles and key brand statements to convey personality and energy. Pair with simpler paragraph fonts to maintain readability and hierarchy. Maintain generous spacing around headings to allow the expressive letterforms to breathe. Avoid using this font for body text to preserve legibility. Use 'primaryForeground' or 'secondaryForeground' colors for headings depending on background for optimal contrast.",
+        "headingsSimilarFonts": [
+          "lobster",
+          "fredericka the great",
+          "cookie"
+        ],
+        "headingsAccessibilityNotes": "Headings using this font with 'primaryForeground' on 'primary' background and 'secondaryForeground' on 'secondary' background meet WCAG AA contrast standards for large text. Ensure sufficient size and spacing to maintain readability given the decorative style."
+      },
+      "fontSizes": [
+        {
+          "name": "xs",
+          "size": "0.75rem",
+          "letterSpacing": "0.02em",
+          "lineHeight": "1.2",
+          "fontWeight": "400"
+        },
+        {
+          "name": "sm",
+          "size": "0.875rem",
+          "letterSpacing": "0.02em",
+          "lineHeight": "1.3",
+          "fontWeight": "400"
+        },
+        {
+          "name": "base",
+          "size": "1rem",
+          "letterSpacing": "0.025em",
+          "lineHeight": "1.5",
+          "fontWeight": "400"
+        },
+        {
+          "name": "lg",
+          "size": "1.125rem",
+          "letterSpacing": "0.025em",
+          "lineHeight": "1.5",
+          "fontWeight": "400"
+        },
+        {
+          "name": "xl",
+          "size": "1.25rem",
+          "letterSpacing": "0.025em",
+          "lineHeight": "1.5",
+          "fontWeight": "400"
+        },
+        {
+          "name": "2xl",
+          "size": "1.5rem",
+          "letterSpacing": "0.02em",
+          "lineHeight": "1.4",
+          "fontWeight": "700"
+        },
+        {
+          "name": "3xl",
+          "size": "1.875rem",
+          "letterSpacing": "0.02em",
+          "lineHeight": "1.3",
+          "fontWeight": "700"
+        },
+        {
+          "name": "4xl",
+          "size": "2.25rem",
+          "letterSpacing": "0.015em",
+          "lineHeight": "1.2",
+          "fontWeight": "700"
+        },
+        {
+          "name": "5xl",
+          "size": "3rem",
+          "letterSpacing": "0.01em",
+          "lineHeight": "1.1",
+          "fontWeight": "700"
+        },
+        {
+          "name": "6xl",
+          "size": "3.75rem",
+          "letterSpacing": "0em",
+          "lineHeight": "1.1",
+          "fontWeight": "700"
+        },
+        {
+          "name": "7xl",
+          "size": "4.5rem",
+          "letterSpacing": "0em",
+          "lineHeight": "1",
+          "fontWeight": "700"
+        },
+        {
+          "name": "8xl",
+          "size": "6rem",
+          "letterSpacing": "-0.01em",
+          "lineHeight": "1",
+          "fontWeight": "700"
+        },
+        {
+          "name": "9xl",
+          "size": "8rem",
+          "letterSpacing": "-0.02em",
+          "lineHeight": "1",
+          "fontWeight": "700"
+        }
+      ],
+      "paragraphs": {
+        "font": {
+          "role": "Main Body Text Font",
+          "fontFamily": "open sans",
+          "fontJustification": ""
+        },
+        "paragraphsUsageGuide": "Use the paragraph font for all body copy, descriptions, and smaller informational text. It pairs well with the expressive heading font by providing clarity and neutrality. Maintain consistent line height and letter spacing for comfortable reading. Use 'primaryForeground' or black text on light backgrounds and white text on dark backgrounds to ensure contrast.",
+        "paragraphsSimilarFonts": [
+          "nunito sans",
+          "raleway",
+          "poppins-v2"
+        ],
+        "paragraphsAccessibilityNotes": "Body text using this font with 'primaryForeground' or black on 'background' or 'sweetBackground' meets WCAG AA contrast requirements. White text on 'secondary' or 'sourBackground' also meets accessibility standards."
+      },
+      "welcomeSectionTypography": {
+        "placement": "Centered",
+        "implementation": "The welcome section uses a large, bold, and expressive heading centered horizontally and vertically within the hero area. The heading is paired with a product image offset to the left and a call-to-action button on the right, creating a balanced asymmetrical composition. The typography is oversized to command attention, with generous spacing around the text to emphasize its playful brush script style. The background uses a bright 'primary' color to enhance vibrancy, while the text uses 'primaryForeground' for strong contrast. This placement strategy creates an inviting and energetic introduction to the brand."
+      }
+    },
+    "originImagesUrls": [
+      "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/uploads/1752411571376-Screenshot%202025-07-13%20at%2015.48.44.png"
+    ],
+    "layout": {
+      "grid": {
+        "margins": "Generous page margins",
+        "padding": "Consistent padding within containers",
+        "spacing": {
+          "gaps": "Consistent medium gaps",
+          "rows": "Defined content rows",
+          "columns": "12-column grid"
+        },
+        "compositionApproach": "Modular with organic wave separators"
+      },
+      "layoutDna": {
+        "contrastSpectrum": "High-Contrast",
+        "densitySpectrum": "Balanced",
+        "textVsImageEmphasis": "Balanced",
+        "complexitySpectrum": "Moderately Complex",
+        "gridAlignmentSpectrum": "Modular",
+        "negativeSpaceUsage": "Functional"
+      }
+    },
+    "graphicElements": {
+      "icons": "Icons are minimal or absent; the design relies more on illustrative elements and typography for personality.",
+      "stickers": "Sticker-style fruit illustrations with thick outlines and bright colors add playful accents and visual interest, enhancing the artisanal feel.",
+      "illustrations": "Hand-drawn, cartoonish illustrations of fruits (lime, strawberry, lemon) appear as stickers or badges scattered around the 'About Us' section, reinforcing the handcrafted and whimsical brand identity."
+    },
+    "designSummary": "This brand identity embraces a vibrant and playful visual style characterized by bold, saturated colors and expressive, hand-drawn typography. The primary color palette features bright yellow as the main background, complemented by royal blue and vivid red accents that create energetic contrasts. Secondary colors like soft pink and medium blue are used strategically to differentiate product categories and flavor profiles. The typography is dominated by a brush script style font that is informal, dynamic, and friendly, paired with clean sans-serif fonts for body text to ensure readability. The layout combines a modular grid system with organic, flowing wave shapes that add movement and visual interest, breaking the rigidity of traditional grids. Graphic elements include whimsical, cartoonish product illustrations outlined with thick strokes and playful fruit stickers, reinforcing a handcrafted and artisanal feel. Buttons are rounded with subtle shadows, using bright red for primary calls to action and black for secondary buttons, ensuring clear visibility and inviting interaction. Overall, the design conveys a youthful, energetic, and approachable brand personality, suitable for lifestyle and craft beverage brands seeking to engage a fun-loving audience.",
+    "palette": {
+      "colors": {
+        "background": "#FFFFFF",
+        "secondary": "#1557C0",
+        "customColors": [
+          {
+            "name": "brandaccent",
+            "value": "#D93F3F"
+          },
+          {
+            "name": "sweetbackground",
+            "value": "#F9A8D4"
+          },
+          {
+            "name": "sourbackground",
+            "value": "#3B82F6"
+          },
+          {
+            "name": "buttontextprimary",
+            "value": "#FFFFFF"
+          },
+          {
+            "name": "buttonbackgroundsecondary",
+            "value": "#000000"
+          },
+          {
+            "name": "foreground",
+            "value": "#210D3A"
+          },
+          {
+            "name": "destructiveforeground",
+            "value": "#FFFFFF"
+          },
+          {
+            "name": "destructive",
+            "value": "#DF3131"
+          }
+        ],
+        "secondaryForeground": "#FFFFFF",
+        "primaryForeground": "#210D3A",
+        "primary": "#F7C948"
+      },
+      "paletteUsageGuide": "Use the 'primary' color as the dominant background in hero sections to create a warm and energetic atmosphere, with text and key graphics in 'primaryForeground' to ensure strong contrast and readability. The 'secondary' color serves as a vibrant accent for section backgrounds and interactive elements, paired with 'secondaryForeground' for clear text visibility. The 'brandAccent' color is reserved for primary call-to-action buttons and highlights, drawing user attention effectively. Background colors like 'sweetBackground' and 'sourBackground' differentiate product categories, reinforcing flavor profiles through color coding. Buttons use 'brandAccent' with 'buttonTextPrimary' for primary actions, while secondary buttons use 'buttonBackgroundSecondary' with 'buttonTextPrimary' to maintain contrast and hierarchy. The 'background' color is used for navigation and content areas to provide a clean, neutral canvas. This palette ensures a lively, playful, and accessible user experience with sufficient contrast for readability and interaction.",
+      "paletteAccessibilityNotes": "The 'primaryForeground' color on 'primary' background meets WCAG AA standards for large and normal text, ensuring readability. The 'secondaryForeground' on 'secondary' background also meets WCAG AA contrast requirements. The 'buttonTextPrimary' on 'brandAccent' buttons provides sufficient contrast for accessibility. Secondary buttons with 'buttonTextPrimary' on 'buttonBackgroundSecondary' maintain high contrast ratios. Background colors 'sweetBackground' and 'sourBackground' paired with black or white text have been tested to meet minimum contrast ratios for body and heading text, supporting inclusive design."
+    }
+  },
+  "initialPrompt": "Brand name: Step Up Shoes Online Shop. Include Home, Return Policy, About, Price in PKR, Delivery Charge, and Different Payment Methods. Designer: Knox.",
+  "status": "READY",
+  "revision": "11",
+  "createdDate": "2026-01-01T11:29:18.744Z",
+  "updatedDate": "2026-01-01T11:29:33.778Z",
+  "attachments": {
+    "contentImagesUrls": [],
+    "inspirationImagesUrls": []
+  },
+  "selectedBrandingPresetId": "26e950fa-e2f7-492c-9dea-e506dd19d42f",
+  "plan": "\n\n```json\n{\n  \"sections\": [\n    {\n      \"id\": \"overview\",\n      \"title\": \"## Overview\",\n      \"content\": \"This plan creates an e-commerce website for Step Up Shoes Online Shop, featuring a product catalog with pricing in PKR, comprehensive information pages (Home, About, Return Policy), delivery charge details, and multiple payment method options.\"\n    },\n    {\n      \"id\": \"key-features\",\n      \"title\": \"## Key features\",\n      \"content\": \"- **View Homepage Content**: Displays brand information and featured products on the main landing page.\\n- **View Product Listing**: Shows all shoes available for sale in the online store.\\n- **View Product Details**: Displays detailed information for a single shoe product, including price in PKR.\\n- **View About Information**: Provides information about Step Up Shoes and the designer Knox.\\n- **View Return Policy**: Displays the store's return policy and terms.\\n- **View Delivery Information**: Shows delivery charges and shipping details.\\n- **View Payment Methods**: Displays all available payment options for customers.\\n- **Add to Cart & Checkout**: Allows customers to purchase products through a secure checkout process.\",\n      \"metadata\": [\n        { \"id\": \"view-homepage-content\", \"name\": \"View Homepage Content\" },\n        { \"id\": \"view-product-listing\", \"name\": \"View Product Listing\" },\n        { \"id\": \"view-product-details\", \"name\": \"View Product Details\" },\n        { \"id\": \"view-about-information\", \"name\": \"View About Information\" },\n        { \"id\": \"view-return-policy\", \"name\": \"View Return Policy\" },\n        { \"id\": \"view-delivery-information\", \"name\": \"View Delivery Information\" },\n        { \"id\": \"view-payment-methods\", \"name\": \"View Payment Methods\" },\n        { \"id\": \"add-to-cart-checkout\", \"name\": \"Add to Cart & Checkout\" }\n      ]\n    },\n    {\n      \"id\": \"structure\",\n      \"title\": \"## Structure\",\n      \"content\": \"- **Header (Reusable)**: Contains the Step Up Shoes logo, navigation links to Home, Products, About, Return Policy, and Contact.\\n- **Footer (Reusable)**: Contains links to delivery information, payment methods, social media profiles, and copyright notice.\\n- **Homepage**: Displays brand introduction, featured products, and key information.\\n- **Products Page**: Hosts the product catalog with all shoes available for purchase.\\n- **About Page**: Provides information about Step Up Shoes and designer Knox.\\n- **Return Policy Page**: Details the store's return policy and terms.\\n- **Checkout Page**: Handles cart review, delivery charge display, payment method selection, and order completion.\"\n    }\n  ],\n  \"apps\": [\n    {\n      \"id\": \"wix-stores\",\n      \"keyFeatures\": [\n        { \"id\": \"view-homepage-content\", \"name\": \"View Homepage Content\" },\n        { \"id\": \"view-product-listing\", \"name\": \"View Product Listing\" },\n        { \"id\": \"view-product-details\", \"name\": \"View Product Details\" },\n        { \"id\": \"view-delivery-information\", \"name\": \"View Delivery Information\" },\n        { \"id\": \"view-payment-methods\", \"name\": \"View Payment Methods\" },\n        { \"id\": \"add-to-cart-checkout\", \"name\": \"Add to Cart & Checkout\" }\n      ]\n    },\n    {\n      \"id\": \"wix-cms\",\n      \"keyFeatures\": [\n        { \"id\": \"view-about-information\", \"name\": \"View About Information\" },\n        { \"id\": \"view-return-policy\", \"name\": \"View Return Policy\" }\n      ]\n    }\n  ],\n  \"version\": \"3.0.21\"\n}\n```",
+  "designerData": {
+    "designerId": "9dcf58b6-5fdc-4458-a378-9f01648cc995",
+    "designerName": "Knox",
+    "selectionMethod": "UNSELECTED"
+  }
+}
